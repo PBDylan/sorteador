@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Sora:wght@100..800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Sora, sans-serif;
+}
+
+:root {
+  --content-primary: #ffffff;
+  --content-secondary: #c7c9cc;
+  --content-tertiary: #d9d9d9;
+  --content-brand: #c58de7;
+  --color-inverse: #030203;
+
+  --bg-primary: #020202;
+  --bg-secondary: #111012;
+  --bg-tertiary: #24222e;
+  --bg-brand: #c58de7;
+  --bg-gray: #3d3d3d;
+
+  --accent-pink: #d586e0;
+  --accent-blue: #91a1fa;
+  --accent-green: #77c0af;
+  --accent-lime: #d1dc97;
+  --accent-red: #e9a9b3;
+
+  --gradient-border: #77c0af 0%, #d1dc97 14.84%, #e9a9b3 32.15%, #d586e0 65.79%,
+    #91a1fa 84.58%;
+  --gradient-background: #d586e0 0%, #91a1fa 98.93%;
+  --gradient-content: #c7c9cc 0%, #3d3d3d 100%;
+}
+
+body {
+  background-image: url("content/img/Shapes.png");
+}
+
+header {
+  margin: 5rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+header img {
+  width: 3rem;
+}
+
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title h3 {
+  font-size: 0.75rem;
+}
+
+main {
+  margin: 5rem;
+}
+
+.results {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.results h3 {
+  font-size: 0.75rem;
+}
+
+.number {
+  margin: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+.butt {
+  display: flex;
+  justify-content: center;
+}
+
+.butt button {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.75rem 4rem;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  background-color: var(--content-secondary);
+  border: none;
+}
+
+.info1 {
+  font-size: 0.75rem;
+}
+
+.info2 {
+  font-size: 0.75rem;
+}
+
+footer {
+  margin: 5rem;
+  display: flex;
+  flex-direction: column;
+}
