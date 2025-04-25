@@ -6,51 +6,61 @@
     <title>Sorteador de números</title>
     <link rel="stylesheet" href="src/styles/style.css" />
   </head>
+
   <body>
     <header>
       <img src="src/styles/content/img/Frame 48095955@2x.png" alt="Logo" />
       <h1>NUMBERS</h1>
     </header>
-    <section class="title">
-      <h3>ONLINE - GRATUITO</h3>
-      <h1>SORTEADOR<br />DE NÚMEROS</h1>
-    </section>
-    <main>
-      <div class="results">
-        <h3>QUERO SORTEAR</h3>
-        <p>
-          Defina o intervalo e a quantidade de números,<br />
-          clique em "Sortear" e veja os resultados na tela. É<br />
-          rápido e fácil!
-        </p>
-      </div>
-      <section class="numbers">
-        <div class="numeros">
-          <h3>NÚMEROS</h3>
-          <input type="number" value="number" />
-        </div>
-        <div class="de">
-          <h3>DE</h3>
-          <input type="number" value="number" />
-        </div>
-        <div class="ate">
-          <h3>ATÉ</h3>
-          <input type="number" value="number" />
-        </div>
+
+    <section class="main">
+      <section class="title">
+        <h3>ONLINE - GRATUITO</h3>
+        <h1>SORTEADOR<br />DE NÚMEROS</h1>
       </section>
-      <div class="act-dt">
-        <label class="switch">
-          <input type="checkbox" id="toggle" />
-          <span class="slider"></span>
-        </label>
-        <p>Não repetir número</p>
-      </div>
-    </main>
+
+      <main>
+        <div class="results">
+          <h3>QUERO SORTEAR</h3>
+          <p>
+            Defina o intervalo e a quantidade de números,<br />
+            clique em "Sortear" e veja os resultados na tela. É<br />
+            rápido e fácil!
+          </p>
+
+          <div class="row-numbers">
+            <div class="numeros">
+              <h3>NÚMEROS</h3>
+              <input type="number" value="number" />
+            </div>
+
+            <div class="de">
+              <h3>DE</h3>
+              <input type="number" value="number" />
+            </div>
+
+            <div class="ate">
+              <h3>ATÉ</h3>
+              <input type="number" value="number" />
+            </div>
+          </div>
+
+          <div class="act-dt">
+            <label class="switch">
+              <input type="checkbox" id="toggle" />
+              <span class="slider"></span>
+            </label>
+            <p>Não repetir número</p>
+          </div>
+        </div>
+      </main>
+    </section>
+    <button class="sort">SORTEADOR</button>
     <footer>
       <div class="info1">
         <h3>
           <img
-            src="src/styles/content/img/question.png"
+            src="src/styles/content/img/question-Stroke-Rounded.png"
             alt="personagem com dúvida"
           />
           Como funciona o sorteador de números?
@@ -60,10 +70,11 @@
           números dentro do intervalo especificado pelo usuário.
         </p>
       </div>
+
       <div class="info2">
         <h3>
           <img
-            src="src/styles/content/img/question.png"
+            src="src/styles/content/img/question-Stroke-Rounded.png"
             alt="personagem com dúvida"
           />
           Posso escolher o intervalo dos números?
@@ -74,6 +85,7 @@
         </p>
       </div>
     </footer>
+
     <script src="src/js/script.js"></script>
   </body>
 </html>
