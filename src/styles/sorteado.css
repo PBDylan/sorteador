@@ -33,15 +33,19 @@
   --gradient-content: #c7c9cc 0%, #3d3d3d 100%;
 }
 
+.title h1 {
+  font-size: 5rem;
+}
+
 body {
   background-color: var(--bg-primary);
   background-image: url("content/img/Shapes.png");
 }
 
 header {
-  margin: 5rem;
+  margin: 5rem 0rem 0rem 12rem;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   gap: 0.5rem;
 }
 
@@ -50,13 +54,8 @@ header img {
 }
 
 .title {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.title h3 {
-  font-size: 0.75rem;
+  display: block;
+  margin: 5rem 0rem 5rem 12rem;
 }
 
 main {
@@ -64,6 +63,7 @@ main {
 }
 
 .results {
+  margin: 2.5rem 0 0 0;
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -74,9 +74,14 @@ main {
 }
 
 .number {
-  margin: 5rem;
+  margin: 2rem;
   display: flex;
   justify-content: center;
+}
+
+.number h1 {
+  font-size: 2rem;
+  color: var(--accent-pink);
 }
 
 @media (min-width: 375px) {
@@ -92,18 +97,38 @@ main {
 
 .butt button {
   display: flex;
+  justify-content: center;
   align-items: center;
-  gap: 0.25rem;
-  padding: 0.75rem 4rem;
-  border-radius: 0.5rem;
-  cursor: pointer;
-  background-color: var(--content-secondary);
-  border: none;
+  margin: 2rem 0 0 0;
+  width: 24rem;
+  height: 3rem;
+  color: var(--content-primary);
+  background-color: var(--bg-gray);
+  border-radius: 0.75rem;
+  border-style: none;
+  gap: 0.75rem;
 }
 
 .info1 {
   font-size: 0.75rem;
-  text-align: center;
+}
+
+.info1 h3 {
+  margin: 2rem 0 0 0;
+  color: var(--content-brand);
+}
+
+.info2 {
+  font-size: 0.75rem;
+}
+
+.info2 h3 {
+  margin: 2rem 0 0 0;
+  color: var(--content-brand);
+}
+
+.all {
+  display: flex;
 }
 
 @media (min-width: 375px) {
@@ -111,18 +136,6 @@ main {
     font-size: small;
     margin: 0.5rem;
   }
-}
-
-.info2 {
-  font-size: 0.75rem;
-  text-align: center;
-}
-
-footer {
-  margin: 5rem;
-  display: flex;
-  flex-direction: column;
-  gap: 1rem;
 }
 
 @media (min-width: 778px) {
