@@ -16,3 +16,10 @@ if (sorteados) {
   document.querySelector(".number h1").textContent =
     "Erro ao carregar o sorteio.";
 }
+
+/////////Voltando a página principal////////////
+const returnButton = document.getElementById("return");
+
+returnButton.addEventListener("click", () => {
+  window.history.back();
+});

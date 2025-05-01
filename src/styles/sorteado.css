@@ -59,7 +59,7 @@ header img {
 }
 
 main {
-  margin: 5rem;
+  margin: 5rem 25rem 0 25rem;
 }
 
 .results {
@@ -107,6 +107,7 @@ main {
   border-radius: 0.75rem;
   border-style: none;
   gap: 0.75rem;
+  cursor: pointer;
 }
 
 .info1 {

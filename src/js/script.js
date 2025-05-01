@@ -8,7 +8,7 @@ const button = document.querySelector(".sort");
 
 button.addEventListener("click", () => {
   // Pega os valores dos inputs
-  const quantity = 2; // Agora sempre sorteamos 2 números
+  const quantity = numeros.value; // Agora sempre sorteamos 2 números
   const valorMinimo = parseInt(de.value);
   const valorMaximo = parseInt(ate.value);
 
